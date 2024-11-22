@@ -57,6 +57,7 @@ resetBtn.addEventListener("click", resetGame)
 const showWinner = (player) => {
     msg.innerText = `Congratulations! Winner is ${player} 🎉🎉`
     msgContainer.classList.remove("hide")
+    alert(`Congratulations to ${player} 🎉🎉`)
 }
 
 const showDraw = () => {
